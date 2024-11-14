@@ -13,27 +13,29 @@ body {
     line-height: 1.6;
 }
 
-/* Header Styling */
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 50px 0;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 1em 2em;
+    color: #fff;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0062da;
 }
 
-header p {
-    font-size: 1.2rem;
+.navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1em;
 }
 
-/* Card Section */
-.cards {
-    padding: 50px 0;
-    background-color: #fff;
+.navbar nav a:hover {
+    text-decoration: underline;
 }
 
 .container {
